@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1 id="title">Drum 🥁 Kit</h1>
+  <div class="set">
+    <button onclick="wsound()" class="w drum">w</button>
+    <button onclick="asound()" class="a drum">a</button>
+    <button onclick="ssound()" class="s drum">s</button>
+    <button onclick="dsound()" class="d drum">d</button>
+    <button onclick="jsound()" class="j drum">j</button>
+    <button onclick="ksound()" class="k drum">k</button>
+    <button onclick="lsound()" class="l drum">l</button>
+  </div>
+ 
+  <audio src="./sounds/tom-1.mp3" id="wsound"></audio>
+  <audio src="./sounds/tom-2.mp3" id="asound"></audio>
+  <audio src="./sounds/tom-3.mp3" id="ssound"></audio>
+  <audio src="./sounds/tom-4.mp3" id="dsound"></audio>
+  <audio src="./sounds/snare.mp3" id="jsound"></audio>
+  <audio src="./sounds/crash.mp3" id="ksound"></audio>
+  <audio src="./sounds/kick-bass.mp3" id="lsound"></audio>
+ 
+
+  <footer>
+    Made with ❤️ in London.
+  </footer>
+  <script src="./index.js"></script>
+</body>
+
+</html>
